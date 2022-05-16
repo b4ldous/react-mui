@@ -1,10 +1,22 @@
+import AlingItems from "./components/AlingItems";
+import FlexDirection from "./components/FlexDirection";
+import JustifyContet from "./components/JustifyContet";
+import DisplayFlex from "./DisplayFlex";
 
 
 function App() {
   return (
     <>
 
-    This is a material UI (v5) tutorial      
+    <h1>Css flex-box with material ui</h1>
+    <h2>Css flex container</h2>
+    <DisplayFlex/> 
+
+    <FlexDirection/>
+    <JustifyContet/>
+    <AlingItems/>
+
+
     </>
   );
 }
