@@ -4,7 +4,7 @@ import React from 'react'
 
 const ThirdAppBar = () => {
   return (
-    <AppBar color='transparent' position='static'>
+    <AppBar color='transparent' position='static' elevation={6}>
     
 
           <Box sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
