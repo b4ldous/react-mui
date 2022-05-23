@@ -1,10 +1,12 @@
+import CustomStyles from "./components/CustomStyles";
 
 
 function App() {
   return (
     <>
 
-    This is a material UI (v5) tutorial      
+    <h1>Theming</h1>   
+    <CustomStyles/>
     </>
   );
 }
