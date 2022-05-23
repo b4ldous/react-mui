@@ -3,6 +3,7 @@ import Container  from '@mui/material/Container';
 import Typography from '@mui/material/Typography'
 import React from 'react';
 import ResponsiveFontSizes from './ResponsiveFontSizes';
+import ResponsiveFontSizesWcolor from './ResponsiveFontSizesWcolor';
 
 const MuiTypography = () => {
   return (
@@ -18,6 +19,7 @@ const MuiTypography = () => {
             <h1>Custom typography</h1>
             <h2>Custom by theming</h2>
             <ResponsiveFontSizes/>
+            <ResponsiveFontSizesWcolor/>
 
         </Container>
     </Box>
