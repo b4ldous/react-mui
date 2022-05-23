@@ -1,10 +1,12 @@
+import MuiTypography from "./components/MuiTypography";
 
 
 function App() {
   return (
     <>
 
-    This is a material UI (v5) tutorial      
+    
+    <MuiTypography/>    
     </>
   );
 }
