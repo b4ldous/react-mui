@@ -11,14 +11,14 @@ const FifthAppBar = () => {
 
         <Container>
 
-<Box sx={{display: 'flex', justifyContent: 'space-between', padding: '10px'}}>
+<Box sx={{display: 'flex', justifyContent: 'space-between', padding: '10px', alignItems: 'center'}}>
     <Box>
-    <Typography variant='body'>hello</Typography>
+    <Typography  variant='body'>hello</Typography>
 
 
     </Box>
-    <Box>
-    <Typography variant='body' sx={{borderBottom: 'solid 5px', borderColor: 'orange', margin: '10px'}}>hi</Typography>
+    <Box sx={{borderBottom: 'solid 5px', borderColor: 'orange', margin: '10px'}}>
+    <Typography   variant='body' >hi</Typography>
 
 
     </Box>
