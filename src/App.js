@@ -1,10 +1,15 @@
-
+import { Box, CssBaseline } from "@mui/material";
+import FirstBox from "./box/FirstBox";
+import SecondBox from "./box/SecondBox";
 
 function App() {
   return (
     <>
-
-    This is a material UI (v5) tutorial      
+      <CssBaseline />
+      <Box>
+        <FirstBox />
+        <SecondBox />
+      </Box>
     </>
   );
 }
