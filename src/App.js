@@ -1,10 +1,17 @@
+import { Box, CssBaseline } from "@mui/material";
+import Fluid from "./containers/Fluid";
 
 
 function App() {
   return (
     <>
+    <CssBaseline/>
+    <Box>
+      <Fluid/>
 
-    This is a material UI (v5) tutorial      
+
+    </Box>
+          
     </>
   );
 }
